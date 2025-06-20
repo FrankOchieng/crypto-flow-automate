@@ -5,6 +5,7 @@ import PortfolioSummary from '@/components/PortfolioSummary';
 import MarketOverview from '@/components/MarketOverview';
 import TradingPanel from '@/components/TradingPanel';
 import ActiveOrders from '@/components/ActiveOrders';
+import PricePrediction from '@/components/PricePrediction';
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
           <div className="xl:col-span-2 space-y-6">
             <PortfolioSummary />
             <MarketOverview />
+            <PricePrediction />
           </div>
           
           {/* Right Column - Trading */}
